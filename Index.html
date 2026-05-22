@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset= "utf-8" />
+		<title>Ninho</title>
+		
+    <style>
+body {
+    margin: 0;
+    background-color: #121212;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #1a1a1a;
+    padding: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #877359;
+}
+
+/* MENU DÉROULANT */
+.menu-albums {
+    position: relative;
+}
+
+.menu-albums ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1a1a1a;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    min-width: 150px;
+}
+
+.menu-albums ul li {
+    padding: 10px 20px;
+}
+
+.menu-albums ul li a {
+    display: block;
+}
+
+.menu-albums:hover ul {
+    display: block;
+}
+
+
+h1 {
+    font-size: 100px;
+    background: linear-gradient(to right, #877359, #3a2f26);
+    padding: 40px;
+    margin: 0;
+}
+h2 {
+    background: linear-gradient(to right, #877359, #3a2f26);
+    padding: 20px;
+    margin: 0;
+}
+p {
+    background-color: #2f2f2f;
+    padding: 20px;
+	border-radius: 20px;
+    max-width: 600px;
+    margin: 20px;
+    line-height: 1.6;
+    border-left: 5px solid #877359;
+
+    animation: apparition 1s ease-in-out;
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 25px;
+    list-style: none;
+    padding: 20px;
+}
+li {
+    text-align: center;
+}
+img {
+    width: 150px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+img:hover {
+    transform: scale(1.1);
+}
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: #aaa;
+}
+@keyframes apparition {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+    </style>
+	</head>
+
+<body>
+<nav>
+<a href="MINI_projet.html">Accueil</a>
+<a href="biographie.html">Bio détaillée</a>
+
+<div class="menu-albums">
+<a href="#">Albums </a>
+<ul>
+<li><a href="MILS.html" >M.I.L.S</a></li>
+<li><a href="GOAT.html" >GOAT</a></li>
+<li><a href="JEFE.html" >Jefe</a></li>
+<li><a href="DESTIN.html" >Destin</a></li>
+</ul>
+</div>
+
+<a href="#">Contact</a>
+</nav>
+<h1>NINHO</h1>	 
+<h2>Biographie :
+<p>
+William Nzobazola, dit Ninho, est un rappeur français né le 2 avril 1996 à Longjumeau.  
+Il est connu pour ses albums M.I.L.S, GOAT, Jefe et Destin.
+</p></h2>
+
+
+<h2>  Albums :</h2>	
+	<ul>
+			
+				<li>				
+				<a href="https://open.spotify.com/intl-fr/album/1M1KkNC2T11RCmQ3nZ9izv"target="_blank"><img src="images/mils4.jfif" alt="M.I.L.S 4" width="150"><br></a>M.I.L.S4
+				</li>
+				
+				<li>
+				<a href="https://open.spotify.com/intl-fr/album/1xqzmgR6M6YqCKS7htHEiJ"target="_blank"><img src="images/goat.jfif" alt="GOAT" width="150"><br></a>GOAT
+				</li>
+				
+				<li>
+				<a href="https://open.spotify.com/intl-fr/album/6sY6EuHMdhyD4dgZsYcKad"target="_blank"><img src="images/ni.jfif" alt="NI" width="150"><br></a>NI
+				</li>
+				
+				<li>
+				
+				<a href="https://open.spotify.com/intl-fr/album/0RBanMMBVaRdM7SOwgAmaK"target="_blank"><img src="images/jefe.jfif" alt="Jefe" width="150"><br></a> Jefe
+				</li>
+				
+				<li>
+				
+				<a href="https://open.spotify.com/intl-fr/album/7MYn9BLGDun0DFxKKQUrWJ"target="_blank"><img src="images/mils3.jfif" alt="M.I.L.S3" width="150"><br></a>  M.I.L.S3
+				</li>
+				
+				<li>
+				<a href="https://open.spotify.com/intl-fr/album/14p5CVdJCMRcgvICDAGS7k"target="_blank"><img src="images/destin.jfif" alt="Destin" width="150"><br></a>  Destin
+				</li>
+				
+				<li>
+				
+				<a href="https://open.spotify.com/intl-fr/album/0hl8Hs6SM4NfS5TOrkOfRU"target="_blank"><img src="images/mils2.jfif" alt="M.I.L.S2.0" width="150"><br></a>M.I.L.S2.0
+				</li>
+				
+				<li>
+				<a href="https://open.spotify.com/intl-fr/album/632kJTmJZKpr1zuEbt21c8"target="_blank"><img src="images/comme-prevu.jfif" alt="Comme prévu" width="150"><br></a> Comme prévu
+				</li>
+				
+				<li>
+				<a href="https://open.spotify.com/intl-fr/album/2KvyDaE0buWzzR8S4gCSsz"target="_blank"><img src="images/mils.jfif" alt=">M.I.L.S" width="150"><br></a>M.I.L.S
+				</li>
+	</ul>	
+
+	
+	<footer>	
+		   <a href="https://www.instagram.com/l.adr08/"target="_blank"> Site fan de Ninho - créé par Leny 🔥
+	</footer>	
+</body>
+</html>
